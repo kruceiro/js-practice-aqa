@@ -1,7 +1,7 @@
 // Task 1.1 - function declaration
 
 function getFirstArea(width, height) {
-    return width * height;
+	return width * height;
 }
 const firstRectangleArea = getFirstArea(5, 10);
 console.log(`Task 1.1 Rectangle area = ${firstRectangleArea}`);
@@ -9,8 +9,8 @@ console.log(`Task 1.1 Rectangle area = ${firstRectangleArea}`);
 // Task 1.2 - function expression
 
 const getSecondArea = function (width, height) {
-    return width * height;
-}
+	return width * height;
+};
 const secondRectangleArea = getSecondArea(7, 15);
 console.log(`Task 1.2 Rectangle area = ${secondRectangleArea}`);
 
