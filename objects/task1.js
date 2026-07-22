@@ -1,9 +1,9 @@
 // Перший варіант
 const student = {
-    firstName: 'Han',
-    lastName: 'Solo',
-    age: 22,
-    courses: ['Math', 'History', 'Programming']
+	firstName: 'Han',
+	lastName: 'Solo',
+	age: 22,
+	courses: ['Math', 'History', 'Programming'],
 };
 console.log(student);
 

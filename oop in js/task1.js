@@ -15,19 +15,12 @@ const eBookOne = new EBook('The Hobbit', 'J.R.R. Tolkien', 1937, 'PDF');
 
 eBookOne.printInfo();
 
-const books = [
-    bookOne,
-    bookTwo,
-    bookThree,
-    eBookOne
-];
+const books = [bookOne, bookTwo, bookThree, eBookOne];
 
 const oldestBook = Book.getOldestBook(books);
 console.log(`-------------OLDEST BOOK ---------------------`);
 oldestBook.printInfo();
 console.log(`----------------------------------------------`);
-
-
 
 // Setter
 bookOne.title = 'Alchemist';
